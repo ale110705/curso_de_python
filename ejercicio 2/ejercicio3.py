@@ -1,0 +1,7 @@
+print("cual es su peso en (kg)")
+peso = input()
+print("cual es su estatura en metros")
+estatura = input()
+imc = (float(peso) / (float(estatura)**2))
+print("tu indice de masa corporal es")
+print(round(imc,2))

@@ -1,0 +1,6 @@
+print("ingrese numero de horas trabajadas")
+numHT = int(input())
+print("ingrese costo por hora")
+costoPH = int(input())
+total = (numHT * costoPH)
+print("el pago total seria " + str(total))
